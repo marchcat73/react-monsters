@@ -9,9 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
-  transition: transform .25s ease-out;
+  transition: transform 0.25s ease-out;
 }
 
 .card-container:hover {
-  transform: scaleZ(3.05);
+  transform: scale(1.05);
 }
